@@ -124,9 +124,9 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
 
 - 벤치마크 성능 비교
     
-    ![image.png](image%201.png)
+    ![image.png](Pic/image%201.png)
     
-    ![image.png](image%202.png)
+    ![image.png](Pic/image%202.png)
     
     실제 벤치마크를 살펴봐도 DB입/출력, 서버의 응답속도가 2배정도 빨라 뛰어난 성능을 보임.
     
@@ -139,7 +139,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
     
     [async/await 개념 정리](https://trustmitt.tistory.com/85)
     
-    ![image.png](image%203.png)
+    ![image.png](Pic/image%203.png)
     
     **프로그램이 특정작업을 동기적으로 처리하지 않고,** **해당 작업이 완료될 때 까지 기다리지 않고 다른 작업을 수행할 수 있는 프로그래밍 패러다임**
     
@@ -161,7 +161,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
 
 ---
 
-![image.png](image%204.png)
+![image.png](Pic/image%204.png)
 
 요청이 매우 많은 사이트를 만든다면 좋은 방법으로 볼수 있음
 
@@ -182,7 +182,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
 
 - FastAPI는 웹 개발 프레임워크라기 보다는 광범위한 API만드는 툴이라 본다.
 
-![image.png](image%205.png)
+![image.png](Pic/image%205.png)
 
 요즘은 서버 개발을 할때 django처럼 크게 개발하는것 보다. MSA(**Micro Service Architecture)방식**
 
@@ -204,7 +204,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
         return 'FastAPI 메인페이지 연습입니다.'
     ```
     
-    ![image.png](image%206.png)
+    ![image.png](Pic/image%206.png)
     
     - /data (경로)로 접속시 다른 데이터가 보이도록 연습해보기
     
@@ -221,13 +221,13 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
         return {'안녕하세요' : 1234} #딕셔너리 자료 형태로 표현해봄.
     ```
     
-    ![image.png](image%207.png)
+    ![image.png](Pic/image%207.png)
     
     - /docs 로 접속시 웹서버를 만들며 사용한 기능들을 API문서형태로 정리해줌
     
-    ![image.png](image%208.png)
+    ![image.png](Pic/image%208.png)
     
-    ![경로를 /redoc으로 치면 다른 형태로도 볼 수있다.](image%209.png)
+    ![경로를 /redoc으로 치면 다른 형태로도 볼 수있다.](Pic/image%209.png)
     
     경로를 /redoc으로 치면 다른 형태로도 볼 수있다.
     
@@ -242,7 +242,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
     
     - 결과적으로 내가 index.html이라는 파일을 전송하여 메인페이지에서 보여주고 싶다면 다음과 같이 진행해야한다.
     
-    ![      index.html 파일생성](image%2010.png)
+    ![      index.html 파일생성](Pic/image%2010.png)
     
           index.html 파일생성
     
@@ -257,7 +257,7 @@ FastAPI의 장점은 위의 2가지 프레임워크보다 2배 빠르며 코드�
         return FileResponse('index.html')
     ```
     
-    ![image.png](image%2011.png)
+    ![image.png](Pic/image%2011.png)
     
     - 이번에는 유저에게 데이터를 받는 경우이다. 
     유저들이 이름, 연락처를 서버에 보내고 싶어할때 수신하는 기능은 다음과 같다.
