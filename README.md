@@ -58,7 +58,7 @@ def read_item(item_id: int, q: str = None):
 - [x]  **가상환경(venv)** 생성 [실습 개발환경은 **pycharm** 이용.]
 - [x]  FastAPI & Uvicorn 설치 [Uviocorn은 실시간 미리보기 패키지]
 
-![image.png](image.png)
+![image.png](/Pic/image.png)
 
 - [x]  [기초 기능 구현해보기](https://www.notion.so/FastAPI-Learning-1d17f052d951800bbc97dd9f21f158eb?pvs=21)(클릭시 코드로 이동)
 
